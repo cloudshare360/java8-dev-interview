@@ -1,0 +1,26 @@
+tasks:
+  - name: Set up Java with SDKMAN!
+    init: |
+      # Install SDKMAN!
+      export SDKMAN_NON_INTERACTIVE=true
+      curl -s "https://get.sdkman.io" | bash
+      source "$HOME/.sdkman/bin/sdkman-init.sh"
+      
+      # Install Java 21 (or your preferred version)
+      echo y | sdk install java 21.0.2-tem --yes
+      sdk default java 21.0.2-tem
+      
+      # Verify installation
+      java -version
+      javac -version
+      
+      # Update PATH and environment variables (already handled by SDKMAN!)
+
+  - name: Install shellcheck
+    init: |
+      sudo apt-get update && sudo apt-get install -y shellcheck
+      
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack@1.0.0  # Java Extension Pack
+    - timonwong.shellcheck@0.25.4  # ShellCheck extension (optional but recommended)

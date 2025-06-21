@@ -1,0 +1,13 @@
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/workspace/.vscode-remote/data/User/globalStorage/pleiades.java-extension-pack-jdk/java/21/bin/java",
+      "default": true
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk-amd64"
+    }
+  ]
+}
