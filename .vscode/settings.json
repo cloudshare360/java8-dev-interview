@@ -2,7 +2,7 @@
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-21",
-      "path": "/workspace/.vscode-remote/data/User/globalStorage/pleiades.java-extension-pack-jdk/java/21",
+      "path": "/home/gitpod/.sdkman/candidates/java/21.0.2-tem",
       "default": true
     },
     {
