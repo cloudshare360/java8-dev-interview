@@ -2,7 +2,7 @@
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-21",
-      "path": "/home/gitpod/.sdkman/candidates/java/21.0.2-tem",
+      "path": "/home/gitpod/.sdkman/candidates/java/21.0.7-tem",
       "default": true
     },
     {
