@@ -7,8 +7,8 @@ tasks:
       source "$HOME/.sdkman/bin/sdkman-init.sh"
       
       # Install Java 21 (or your preferred version)
-      echo y | sdk install java 21.0.2-tem --yes
-      sdk default java 21.0.2-tem
+      echo y | sdk install java 21.0.7-tem --yes
+      sdk default java 21.0.7-tem
       
       # Verify installation
       java -version
